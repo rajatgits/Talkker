@@ -58,9 +58,7 @@ export const SignUpCard = ({ setState }: SignUpCardProps) => {
     <Card className="w-full h-full p-8">
       <CardHeader className="px-0 pt-0">
         <CardTitle>
-          {" "}
-          Sign up to continue to{" "}
-          <span className="text-lg text-[#5C3B56]">Talkker</span>
+          Sign up to <span className="text-[#5C3B56]">Talkker</span>
         </CardTitle>
         <CardDescription>
           Use your email or another service to continue
