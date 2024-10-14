@@ -36,7 +36,15 @@ export default function RootLayout({
         >
           <ConvexClientProvider>
             <JotaiProvider>
-              <Toaster />
+              <Toaster
+                toastOptions={{
+                  style: {
+                    background: "white",
+                    color: "black",
+                    border: "none",
+                  },
+                }}
+              />
               <Modals />
               {children}
             </JotaiProvider>
