@@ -86,7 +86,7 @@ export const SignInCard = ({ setState }: SignInCardProps) => {
           </Button>
         </form>
         <Separator />
-        <div className="flex flex-col gap-y-2.5">
+        <div className="flex gap-2.5">
           <Button
             disabled={pending}
             onClick={() => onProviderSignIn("google")}
@@ -95,7 +95,7 @@ export const SignInCard = ({ setState }: SignInCardProps) => {
             className="w-full relative"
           >
             <FcGoogle className="size-5 absolute top-3 left-2.5" />
-            Continue with Google
+            Google
           </Button>
           <Button
             disabled={pending}
@@ -105,7 +105,7 @@ export const SignInCard = ({ setState }: SignInCardProps) => {
             className="w-full relative"
           >
             <FaGithub className="size-5 absolute top-3 left-2.5" />
-            Continue with GitHub
+            GitHub
           </Button>
         </div>
         <p className="text-xs text-muted-foreground">
