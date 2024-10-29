@@ -237,7 +237,7 @@ const Editor = ({
             </Hint>
           )}
           {variant === "update" && (
-            <div className="ml-auto flex items-center gap-x-2">
+            <div className="ml-auto flex items-center gap-x-2 text-black">
               <Button
                 variant="outline"
                 size="sm"
