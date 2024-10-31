@@ -276,7 +276,7 @@ export const get = query({
             const dedupedReactions = reactionsWithCounts.reduce(
               (acc, reaction) => {
                 const existingReaction = acc.find(
-                  (r) => (r.value = reaction.value)
+                  (r) => r.value === reaction.value
                 );
 
                 if (existingReaction) {
