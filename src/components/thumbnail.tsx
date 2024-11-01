@@ -3,13 +3,7 @@ interface ThumbnailProps {
   url: string | null | undefined;
 }
 
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "./ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "./ui/dialog";
 
 export const Thumbnail = ({ url }: ThumbnailProps) => {
   if (!url) {
